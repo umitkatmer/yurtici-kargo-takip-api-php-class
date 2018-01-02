@@ -15,7 +15,7 @@ Bu link de sorgu yapabilmek için resmi başvuru yapıp kullanıcı adı ve şif
 Bu bilgileri başvuru sonrasında size gönderilecek dökümantasyon da görebilirsiniz.
 Dökümantasyon da değerlerin anlamlarını ve işlemlerini görebilirsiniz.
 
-Sunucu da bu kodun çalışabilmesi için 80 port unun acık olamsı , soket , openssl , SOAP , curl  gibi eklentilerin açık olması gerekmekte.
+Sunucu da bu kodun çalışabilmesi için 80 port unun acık olması , soket , openssl , SOAP , curl  gibi eklentilerin açık olması gerekmekte.
 
-https://www.facebook.com/taktikteknoloji/ 
+https://www.facebook.com/taktikteknoloji/ <br>
 http://umitkatmer.com.tr/
