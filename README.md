@@ -19,9 +19,9 @@ Sunucu da bu kodun çalışabilmesi için 80 port unun acık olması , soket , o
 
 https://www.facebook.com/taktikteknoloji/ <br>
 http://umitkatmer.com.tr/
-
-Bu Kodlar işinize yaradı ise ;
-http://www.mehmetcik.org.tr/bagis/sms/
-Arzu eden vatandaşlarımız, TÜRK TELEKOM, TURKCELL veya VODAFONE GSM operatörlerine ait faturalı telefonlardan 2582'ye MEHMETÇİK yazıp kısa mesaj (SMS) göndererek Mehmetçik Vakfına 10,00 TL tutarında bağışta bulunabilirler.
+<br>
+Bu Kodlar işinize yaradı ise ;<br>
+http://www.mehmetcik.org.tr/bagis/sms/ <br>
+Arzu edenler, TÜRK TELEKOM, TURKCELL veya VODAFONE GSM operatörlerine ait faturalı telefonlardan 2582'ye MEHMETÇİK yazıp kısa mesaj (SMS) göndererek Mehmetçik Vakfına 10,00 TL tutarında bağışta bulunabilirsiniz.
 
 
