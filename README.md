@@ -5,6 +5,8 @@ Ordaki bilgileri , değerleri ve karşılıklarını görmeniz geremektedir.
 
 Kargo Key otomatik oluşturup bu key ve kargo bilgileri ile (adres,telefon,fatura ve irsaliye (ticari gönderiler) numarası zorunludur) 
 kargo siparişi oluşturup yurtiçi kargo nun sistemine sipariş (kargo çıkışı) düşürülür.
+Kargo siparişi kargonun ödeme tipine göre 4 şekilde yapılmakda ve her talep için faklı kullanıcı adı şifre bulunmakta.Bu talep nolar ile sipariş vermekte zorunlusunuz.
+
 Kargo firması kargo almaya geldiğinde kargo keyi ile kargoları alır ve bunları sisteme bu key ile girerler.Sizde bu key ile kargonuzun 
 durumunu takip edebilirsiniz.(Biraz zorunlu sorunlu bir süreç).
 
