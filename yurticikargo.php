@@ -150,12 +150,51 @@ $params = array(
 
 );
 
+
+//$talepno yurt içi kargodan aldığınız talep koduna göre kargonuzu göndermek istediğiniz şekilde login olup kargoyu oluşturmanız gerekmekte
+// 4 adet kargo gönderme (talep no var) şekli var bunu  pazarlama sorumlusu arkadaş size iletecektir.
+//siz eğer alıcı ödeyecekse bu kullanıcı adı şifre ile kargoyu göndereceksiniz.
+
+$sifreler = array (
+
+    "******(talepno)" => array(
+         
+		"bilgi"=>"GÖNDERİCİ ÖDEMELİ NORMAL GÖNDERİLER", 
+		"kullaniciadi"=>"************",
+		"sifre"=>"************",
+		
+		),
+    "******(talepno)" => array(
+         
+		"bilgi"=>"GÖNDERİCİ ÖDEMELİ TAHSİLATLI TESLİMAT", 
+		"kullaniciadi"=>"************",
+		"sifre"=>"************",
+		
+		),
+    "******(talepno)" => array(
+         
+		"bilgi"=>"ALICI ÖDEMELİ NORMAL GÖNDERİLER", 
+		"kullaniciadi"=>"************",
+		"sifre"=>"************",
+		
+		),
+    "******(talepno)" => array(
+         
+		"bilgi"=>"ALICI ÖDEMELİ TAHSİLATLI TESLİMAT", 
+		"kullaniciadi"=>"************",
+		"sifre"=>"************",
+		
+		),
+    );
+		
+		
+$kullaniciadi = $sifreler[$talepno]["kullaniciadi"]	;	
+$sifre        = $sifreler[$talepno]["sifre"]	;	
+		
 $yurticiparams = [
-
-"wsUserName"=>"**************",
-"wsPassword"=>"**************",
+"wsUserName"=>$kullaniciadi,
+"wsPassword"=>$sifre,
 "userLanguage"=>"TR"
-
 	];
 
 $yurtici      = new yurtici($yurticiparams);
