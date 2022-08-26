@@ -1,31 +1,22 @@
-# yurticikargo
+# Yurtiçi Kargo - Php Entegrasyon Kütüphanesi
 
-Entegrasyon dökümantasyonu (Klavuz) yurtiçi kargo pazarlama sorumlusundan almanız gerekmektedir.
-Ordaki bilgileri , değerleri ve karşılıklarını görmeniz geremektedir.
-
-Kargo Key otomatik oluşturup bu key ve kargo bilgileri ile (adres,telefon,fatura ve irsaliye (ticari gönderiler) numarası zorunludur) 
-kargo siparişi oluşturup yurtiçi kargo nun sistemine sipariş (kargo çıkışı) düşürülür.
-Kargo siparişi kargonun ödeme tipine göre 4 şekilde yapılmakda ve her talep için faklı kullanıcı adı şifre bulunmakta.Bu talep nolar ile sipariş vermekte zorunlusunuz.
-
-Kargo firması kargo almaya geldiğinde kargo keyi ile kargoları alır ve bunları sisteme bu key ile girerler.Sizde bu key ile kargonuzun 
-durumunu takip edebilirsiniz.(Biraz zorunlu sorunlu bir süreç).
-
-
+<h3 id="baslangic">Başlangıç</h3>
 http://webservices.yurticikargo.com:8080/KOPSWebServices/ShippingOrderDispatcherServices?wsdl
+<br>Entegrasyon dökümantasyonu (Klavuz) yurtiçi kargo pazarlama sorumlusundan almanız gerekmektedir.
+<br>Bu link de sorgu yapabilmek için resmi başvuru yapıp kullanıcı adı ve şifre almak durumundasınız. 
 
-Bu link de sorgu yapabilmek için resmi başvuru yapıp kullanıcı adı ve şifre almak durumundasınız.Test linki de var ama ben kullanamadım.
-Bu bilgileri başvuru sonrasında size gönderilecek dökümantasyon da görebilirsiniz.
-Dökümantasyon da değerlerin anlamlarını ve işlemlerini görebilirsiniz.
+<h3 id="isleyis">İşleyiş</h3>
+Kargo Key otomatik oluşturup bu key ve kargo bilgileri ile (adres,telefon,fatura ve irsaliye (ticari gönderiler) numarası zorunludur) 
+<br>Kargo siparişi oluşturup yurtiçi kargo nun sistemine sipariş (kargo çıkışı) düşürülür.
+<br>Kargo siparişi kargonun ödeme tipine göre 4 şekilde yapılmakda ve her talep için faklı kullanıcı adı şifre bulunmakta.Bu talep nolar ile sipariş vermekte zorunlusunuz.
+<br>Kargo firması kargo almaya geldiğinde kargo keyi ile kargoları alır ve bunları sisteme bu key ile girerler.Sizde bu key ile kargonuzun durumunu takip edebilirsiniz.(Biraz zorunlu sorunlu bir süreç).
 
+<h3 id="not">Not</h3>
 Sunucu da bu kodun çalışabilmesi için 80 port unun acık olması , soket , openssl , SOAP , curl  gibi eklentilerin açık olması gerekmekte.
 
-https://www.facebook.com/taktikteknoloji/ <br>
-http://umitkatmer.com.tr/
-<br>
-<br>
-<br>
-Bu Kodlar işinize yaradı ise ;<br>
-http://www.mehmetcik.org.tr/bagis/sms/ <br>
-Arzu edenler, TÜRK TELEKOM, TURKCELL veya VODAFONE GSM operatörlerine ait faturalı telefonlardan 2582'ye MEHMETÇİK yazıp kısa mesaj (SMS) göndererek Mehmetçik Vakfına 10,00 TL tutarında bağışta bulunabilirsiniz.
+<h3 id="iletisim">İletişim</h3>
+ÜMİT KATMER
+<br>info@umitkatmer.com.tr
+<br>https://www.facebook.com/katmersoft
 
 
