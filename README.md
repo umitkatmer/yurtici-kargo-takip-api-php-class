@@ -69,13 +69,13 @@ $yurticiparams = ["wsUserName"=>$kullaniciadi,"wsPassword"=>$sifre,"userLanguage
 $yurtici      = new yurtici($yurticiparams);
 $OrderList  = $yurtici->createShipment ($params); 
 //Kargo çıkış , kargo var gelin alın , kargo siparişi verilir.
-$OrderList  = $yurtici->cancelShipment($cargoKeys="**************");
+$OrderList  = $yurtici->cancelShipment($cargoKeys="");
 //Kargo çıkışı iptal edilir , Kargo siparişi iptal ,Artık Kargom yok maalesef .
-$OrderList  = $yurtici->queryShipment($keys="**************",$keyType="0",$addHistoricalData=true,$onlyTracking=true);
+$OrderList  = $yurtici->queryShipment($keys="",$keyType="0",$addHistoricalData=true,$onlyTracking=true);
 //Kargo Siparişinin Durumu
-$OrderList  = $yurtici->queryShipmentDetail($keys="**************",$keyType="0",$addHistoricalData=true,$onlyTracking=true,$jsonData=true);
+$OrderList  = $yurtici->queryShipmentDetail($keys="",$keyType="0",$addHistoricalData=true,$onlyTracking=true,$jsonData=true);
 //Siparişin aşamaları ve detayları , kargo takip linki 
-$OrderList    = $yurtici->queryShipmentDetail($keys="**************",$keyType="0",$addHistoricalData=true,$onlyTracking=false,$jsonData=false);
+$OrderList    = $yurtici->queryShipmentDetail($keys="",$keyType="0",$addHistoricalData=true,$onlyTracking=false,$jsonData=false);
 //Siparişin aşamaları ve detayları , kargo takip linki , true false değerlerine göre bilgiler gelmektedir.
 //Kargo Key otomatik oluşturup bu key ve kargo bilgileri ile (adres,telefon,fatura ve irsaliye (ticari gönderiler) numarası zorunludur) 
 ?>
